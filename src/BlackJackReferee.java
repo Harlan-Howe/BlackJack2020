@@ -30,10 +30,16 @@ public class BlackJackReferee
      * </ul>
      * @param pileToScore
      * @return how many points this hand is worth
+     * postcondition: The pileToScore should be left in the same condition as it was given by the end of this method.
      */
     public int getScoreForPile(CardPile pileToScore)
     {
         // TODO: I suggest you write this method - I think it will be handy.
+
+        // suggestion: create a temporary, empty cardpile. Deal the cards from the pileToScore into the temp pile one
+        //             by one as you calculate the score, and then take them all back.
+
+
 
         return 0; // obviously, replace this with real code.
     }
